@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+}
+
+.container_navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+  height: 82px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.container_navbar .main_logo {
+  width: 100%;
+}
+
+.container_navbar .navbar_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+}
+
+.container_navbar .navbar_link a {
+  text-decoration: none;
+  color: white;
+}
+
+.container_navbar .navbar_link a:hover {
+  text-decoration: underline;
+}
+
+.container_navbar .navbar_link a .active {
+  color: #fac422;
+}
+
+.container_navbar .contact {
+  width: 100%;
+  height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_navbar .contact li {
+  border: 1px solid white;
+  list-style-type: none;
+  padding: 15px 25px;
+}
+
+.container_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+}
+
+.container_home #flex_1_home {
+  background-color: black;
+}
+
+.container_home .item_1 {
+  width: 50vw;
+  height: 700px;
+  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 20px 0 20px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  display: none;
+}
+
+.container_home .item_1 .link_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  -webkit-transform: rotate(-90deg) translateY(-100px);
+          transform: rotate(-90deg) translateY(-100px);
+  width: 20px;
+  padding: 0 20px;
+  color: #80858f;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container_home .item_1 .container_fire {
+  color: #57b8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_home .item_1 .main_text {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 86px;
+}
+
+.container_home .item_1 .welcome_lorem {
+  margin-top: 43px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+}
+
+.container_home .item_1 .btn_welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 53px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.container_home .item_1 .btn_welcome .btn1 {
+  height: 70px;
+  background-color: #57b8ff;
+  color: white;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.container_home .item_1 .btn_welcome .btn1:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.container_home .item_1 .btn_welcome .btn2 {
+  height: 70px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.container_home .item_2 {
+  background-color: #57b8ff;
+  width: 50vw;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.container_home .img_hero {
+  height: 480px;
+}
+
+.container_shop {
+  background-image: url("../assets/forntnite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 130px;
+}
+
+.container_shop h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
+
+.container_shop h1 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 900px;
+  display: block;
+  margin: 12px auto 0 auto;
+}
+
+.container_shop p {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  width: 698px;
+  color: rgba(223, 223, 223, 0.8);
+  display: block;
+  margin: 37px auto 0 auto;
+}
+
+.container_shop .card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.container_shop .card_container .card {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container_shop .card_container .card:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.container_shop .card_container .card .card_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 630px;
+  gap: 16px;
+  padding: 40px 0px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container_shop .card_container .card .card_1:hover {
+  background-color: #0d1729;
+}
+
+.container_shop .card_container .card .card_1.card_rigth {
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.container_shop .card_container .card .card_1.card_left {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.container_shop .card_container .card .card_1 .head_card {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.container_shop .card_container .card .card_1 .title_card {
+  margin-top: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+  width: 500px;
+}
+
+.container_person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #2a313c;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+
+.container_person .person {
+  height: 600px;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container_person h2 {
+  margin-top: 40px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.container_person h1 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+  height: 180px;
+}
+
+.container_person p {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+  height: 200px;
+  width: 550px;
+}
+
+.container_person .img_person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+}
+
+#fire_shop {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+#game_title_shop {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+#p_shop {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.active_item_2 {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+.active_item_2_img {
+  background-image: url("../assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center;
+}
+
+.active {
+  opacity: 1 !important;
+  -webkit-transform: translate(0px) !important;
+          transform: translate(0px) !important;
+}
+
+.bi {
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 45px;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.bi:hover {
+  color: #57b8ff;
+}
+/*# sourceMappingURL=style.css.map */
