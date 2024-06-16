@@ -16,6 +16,11 @@ body {
 	position: relative;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
 /////////navbar
 .container_navbar {
 	display: flex;
@@ -151,7 +156,6 @@ body {
 				font-weight: 400;
 				font-size: 18px;
 				line-height: 28px;
-				text-transform: capitalize;
 				cursor: pointer;
 
 				&:hover {
@@ -171,7 +175,6 @@ body {
 				font-weight: 400;
 				font-size: 18px;
 				line-height: 28px;
-				text-transform: capitalize;
 			}
 		}
 	}
@@ -195,11 +198,9 @@ body {
 ///////////
 
 .container_shop {
-	background-image: url("../assets/forntnite.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 1000px;
-	padding-top: 130px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #515151;
 
 	h2 {
 		// text-align: center;
